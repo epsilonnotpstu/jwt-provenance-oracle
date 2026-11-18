@@ -1,0 +1,53 @@
+{
+ "n_cases": 1600,
+ "seed": 20260925,
+ "self_check": "passed (all)",
+ "by_depth": {
+  "0": 320,
+  "1": 320,
+  "2": 320,
+  "3": 320,
+  "4": 320
+ },
+ "by_alg": {
+  "ES256": 126,
+  "ES384": 97,
+  "ES512": 115,
+  "EdDSA": 124,
+  "HS256": 130,
+  "HS384": 122,
+  "HS512": 137,
+  "PS256": 146,
+  "PS384": 135,
+  "PS512": 118,
+  "RS256": 124,
+  "RS384": 130,
+  "RS512": 96
+ },
+ "by_ser": {
+  "compact": 978,
+  "json_flat": 322,
+  "json_general": 300
+ },
+ "by_tag": {
+  "aud": 675,
+  "decimal_inexact": 136,
+  "json_ser": 673,
+  "kid": 694,
+  "nul": 104,
+  "num_respelled": 380,
+  "precision": 122,
+  "solidus": 19,
+  "typ": 1055,
+  "uesc": 273,
+  "unicode": 242,
+  "xhdr": 507
+ },
+ "primary_stratum": 1355,
+ "sha256": {
+  "cases.json": "663e2aac4ce4677b67a6f596a7633dd84034ed18b03acaa1c4f6f1f40312ce29",
+  "truth.json": "428c5c3be35a19ed2fac9d23ed6084a6e4e383ac9d74b0ee6f7866005f7050ac",
+  "signed.json": "0e02fa63ad6fc91aa67014dfc66ef2e0512384e560b7720221c161ceae86d3a2",
+  "issuer_keys.json": "a129243673f8298a60bb295e30f379ec4678b1b4d8bb2f392579f7aa4ca43577"
+ }
+}

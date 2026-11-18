@@ -1,0 +1,19 @@
+[package]
+name = "scale30_rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hex = "0.4.3"
+josekit = { version = "0.10.3", optional = true }
+jsonwebtoken = { version = "11.1.0", features = ["aws_lc_rs"], optional = true }
+jwt-simple = { version = "0.13.1", optional = true }
+serde_json = "1.0.151"
+
+# BoringSSL (jwt-simple) আর system OpenSSL (josekit) একই binary-তে link হলে libcrypto symbol সংঘর্ষ হয়,
+# তাই jwt-simple আলাদা build: cargo build --release --no-default-features --features jwtsimple --target-dir target-jwtsimple
+[features]
+default = ["keats", "josekit_f"]
+keats = ["dep:jsonwebtoken"]
+josekit_f = ["dep:josekit"]
+jwtsimple = ["dep:jwt-simple"]

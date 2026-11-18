@@ -1,0 +1,342 @@
+{
+"S/HS256/compact": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/json_flat": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/json_general": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/ws_json": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/b64pad": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/trailing_nl": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/hdr_ws": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/hdr_order": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/pl_escaped_key": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/pl_bom": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/dup_member": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/HS256/crit_unknown": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/compact": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/json_flat": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/json_general": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/ws_json": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/b64pad": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/trailing_nl": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/hdr_ws": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/hdr_order": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/pl_escaped_key": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/pl_bom": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/dup_member": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/RS256/crit_unknown": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/compact": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/json_flat": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/json_general": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/ws_json": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/b64pad": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/trailing_nl": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/hdr_ws": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/hdr_order": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/pl_escaped_key": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/pl_bom": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/dup_member": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"S/ES256/crit_unknown": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/aud_string": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/aud_array": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/bigint": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/bigint_53p1": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/exp_float": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/str_num": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/null_member": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/float_claim": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/nested_obj": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/empty_obj_arr": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/bool_claim": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/unicode_nfc": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/unicode_nfd": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/unicode_astral": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/long_claim": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/HS256/many_claims": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/aud_string": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/aud_array": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/bigint": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/bigint_53p1": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/exp_float": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/str_num": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/null_member": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/float_claim": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/nested_obj": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/empty_obj_arr": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/bool_claim": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/unicode_nfc": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/unicode_nfd": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/unicode_astral": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/long_claim": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+},
+"T/RS256/many_claims": {
+"honestly_issued": true,
+"legit_role": "user",
+"attack_role": ""
+}
+}

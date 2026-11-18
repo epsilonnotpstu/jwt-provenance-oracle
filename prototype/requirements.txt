@@ -1,0 +1,5 @@
+pyjwt==2.14.0
+python-jose==3.5.0
+authlib==1.8.0
+jwcrypto==1.6.1
+cryptography==50.0.1

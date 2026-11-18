@@ -1,0 +1,415 @@
+{
+ "primary_impls": [
+  "dotnet/IdentityModel",
+  "dotnet/JWT",
+  "dotnet/jose-jwt",
+  "go/go-jose",
+  "go/golang-jwt",
+  "go/kataras-jwt",
+  "java/java-jwt",
+  "java/jjwt",
+  "java/jose4j",
+  "java/nimbus-jose-jwt",
+  "node/cloudflare-worker-jwt",
+  "node/fast-jwt",
+  "node/jose",
+  "node/jsonwebtoken",
+  "node/jsrsasign",
+  "node/jwt-simple",
+  "node/njwt",
+  "node/node-jose",
+  "php/jwt-framework",
+  "php/lcobucci-jwt",
+  "php/php-jwt",
+  "python/authlib",
+  "python/cryptojwt",
+  "python/joserfc",
+  "python/jwcrypto",
+  "python/jwskate",
+  "python/pyjwt",
+  "python/python-jose",
+  "ruby/json-jwt",
+  "ruby/ruby-jwt",
+  "rust/jsonwebtoken",
+  "rust/jwt-simple"
+ ],
+ "n_impls": 32,
+ "languages": [
+  "dotnet",
+  "go",
+  "java",
+  "node",
+  "php",
+  "python",
+  "ruby",
+  "rust"
+ ],
+ "status": {
+  "python/pyjwt": "ok",
+  "python/python-jose": "ok",
+  "python/authlib": "ok",
+  "python/jwcrypto": "ok",
+  "python/joserfc": "ok",
+  "python/jwskate": "ok",
+  "python/cryptojwt": "ok",
+  "node/jose": "ok",
+  "node/jsonwebtoken": "ok",
+  "node/fast-jwt": "ok",
+  "node/jsrsasign": "ok",
+  "node/njwt": "ok",
+  "node/node-jose": "ok",
+  "go/golang-jwt": "ok",
+  "go/jwx": "keyload 11.3% > 5%",
+  "go/go-jose": "ok",
+  "go/kataras-jwt": "ok",
+  "java/nimbus-jose-jwt": "ok",
+  "java/jjwt": "ok",
+  "java/java-jwt": "ok",
+  "java/jose4j": "ok",
+  "php/php-jwt": "ok",
+  "php/lcobucci-jwt": "ok",
+  "php/jwt-framework": "ok",
+  "rust/jsonwebtoken": "ok",
+  "rust/josekit": "keyload 15.1% > 5%",
+  "rust/jwt-simple": "ok",
+  "ruby/ruby-jwt": "ok",
+  "ruby/json-jwt": "ok",
+  "dotnet/IdentityModel": "ok",
+  "dotnet/jose-jwt": "ok",
+  "dotnet/JWT": "ok",
+  "node/jwt-simple": "ok",
+  "node/cloudflare-worker-jwt": "ok"
+ },
+ "n_honest": 159,
+ "n_forged": 2045,
+ "headline": {
+  "B0": {
+   "honest_fp": 114,
+   "honest_fp_rate": 0.7169811320754716,
+   "forged_flags": 0
+  },
+  "B1": {
+   "honest_fp": 6,
+   "honest_fp_rate": 0.03773584905660377,
+   "forged_flags": 0
+  },
+  "B2": {
+   "honest_fp": 38,
+   "honest_fp_rate": 0.2389937106918239,
+   "forged_flags": 0
+  },
+  "PROV": {
+   "honest_fp": 64,
+   "honest_fp_rate": 0.4025157232704403,
+   "forged_flags": 61
+  },
+  "PROV_claim": {
+   "honest_fp": 0,
+   "honest_fp_rate": 0.0,
+   "forged_flags": 0
+  }
+ },
+ "D1": {
+  "2": {
+   "B0": {
+    "median": 0.16981132075471697,
+    "q1": 0.07547169811320754,
+    "q3": 0.24528301886792453
+   },
+   "B1": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+   },
+   "B2": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.07547169811320754
+   },
+   "PROV": {
+    "median": 0.07547169811320754,
+    "q1": 0.05660377358490566,
+    "q3": 0.1761006289308176
+   },
+   "PROV_claim": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+   }
+  },
+  "4": {
+   "B0": {
+    "median": 0.32075471698113206,
+    "q1": 0.24528301886792453,
+    "q3": 0.4025157232704403
+   },
+   "B1": {
+    "median": 0.018867924528301886,
+    "q1": 0.012578616352201259,
+    "q3": 0.03773584905660377
+   },
+   "B2": {
+    "median": 0.07547169811320754,
+    "q1": 0.012578616352201259,
+    "q3": 0.11320754716981132
+   },
+   "PROV": {
+    "median": 0.18238993710691823,
+    "q1": 0.09433962264150944,
+    "q3": 0.2389937106918239
+   },
+   "PROV_claim": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+   }
+  },
+  "8": {
+   "B0": {
+    "median": 0.4528301886792453,
+    "q1": 0.41509433962264153,
+    "q3": 0.5471698113207547
+   },
+   "B1": {
+    "median": 0.03773584905660377,
+    "q1": 0.03773584905660377,
+    "q3": 0.03773584905660377
+   },
+   "B2": {
+    "median": 0.11320754716981132,
+    "q1": 0.0880503144654088,
+    "q3": 0.22641509433962265
+   },
+   "PROV": {
+    "median": 0.2641509433962264,
+    "q1": 0.23270440251572327,
+    "q3": 0.29559748427672955
+   },
+   "PROV_claim": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+   }
+  },
+  "16": {
+   "B0": {
+    "median": 0.5660377358490566,
+    "q1": 0.49056603773584906,
+    "q3": 0.5660377358490566
+   },
+   "B1": {
+    "median": 0.03773584905660377,
+    "q1": 0.03773584905660377,
+    "q3": 0.03773584905660377
+   },
+   "B2": {
+    "median": 0.2389937106918239,
+    "q1": 0.16352201257861634,
+    "q3": 0.2389937106918239
+   },
+   "PROV": {
+    "median": 0.3081761006289308,
+    "q1": 0.3018867924528302,
+    "q3": 0.34591194968553457
+   },
+   "PROV_claim": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+   }
+  },
+  "24": {
+   "B0": {
+    "median": 0.5660377358490566,
+    "q1": 0.5660377358490566,
+    "q3": 0.7169811320754716
+   },
+   "B1": {
+    "median": 0.03773584905660377,
+    "q1": 0.03773584905660377,
+    "q3": 0.03773584905660377
+   },
+   "B2": {
+    "median": 0.2389937106918239,
+    "q1": 0.2389937106918239,
+    "q3": 0.2389937106918239
+   },
+   "PROV": {
+    "median": 0.3333333333333333,
+    "q1": 0.32075471698113206,
+    "q3": 0.389937106918239
+   },
+   "PROV_claim": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+   }
+  },
+  "32": {
+   "B0": {
+    "median": 0.7169811320754716,
+    "q1": 0.7169811320754716,
+    "q3": 0.7169811320754716
+   },
+   "B1": {
+    "median": 0.03773584905660377,
+    "q1": 0.03773584905660377,
+    "q3": 0.03773584905660377
+   },
+   "B2": {
+    "median": 0.2389937106918239,
+    "q1": 0.2389937106918239,
+    "q3": 0.2389937106918239
+   },
+   "PROV": {
+    "median": 0.4025157232704403,
+    "q1": 0.4025157232704403,
+    "q3": 0.4025157232704403
+   },
+   "PROV_claim": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+   }
+  }
+ },
+ "H2": {
+  "cross_mean": 0.17714664044080972,
+  "within_mean": 0.15804114597122365,
+  "diff_pp": 1.9105494469586066,
+  "p_one_sided": 0.137986201379862,
+  "boot95_pp": [
+   0.9823367230961944,
+   2.943527545645644
+  ],
+  "n_pairs": 496,
+  "supported": false
+ },
+ "H3": {
+  "V1_seed2-3": {
+   "n": 70,
+   "fp": 2,
+   "rate": 0.02857142857142857,
+   "ci95": [
+    0.0,
+    0.07142857142857142
+   ]
+  },
+  "V2": {
+   "n": 30,
+   "fp": 24,
+   "rate": 0.8,
+   "ci95": [
+    0.6666666666666666,
+    0.9333333333333333
+   ]
+  },
+  "V3": {
+   "n": 24,
+   "fp": 12,
+   "rate": 0.5,
+   "ci95": [
+    0.2916666666666667,
+    0.7083333333333334
+   ]
+  },
+  "heldout_all": {
+   "n": 124,
+   "fp": 38,
+   "rate": 0.3064516129032258,
+   "ci95": [
+    0.22580645161290322,
+    0.3870967741935484
+   ]
+  },
+  "profile_rules": 178,
+  "supported": true
+ },
+ "D5": {
+  "B0": {
+   "alerts": 114,
+   "per_1000": 51.724137931034484,
+   "clusters": 40
+  },
+  "B1": {
+   "alerts": 6,
+   "per_1000": 2.722323049001815,
+   "clusters": 28
+  },
+  "B2": {
+   "alerts": 38,
+   "per_1000": 17.24137931034483,
+   "clusters": 28
+  },
+  "PROV": {
+   "alerts": 125,
+   "per_1000": 56.71506352087114,
+   "clusters": 27
+  },
+  "PROV_claim": {
+   "alerts": 0,
+   "per_1000": 0.0,
+   "clusters": 0
+  }
+ },
+ "D6": {
+  "keyload_rate": {
+   "dotnet/IdentityModel": 0.0,
+   "dotnet/JWT": 0.03773584905660377,
+   "dotnet/jose-jwt": 0.03773584905660377,
+   "go/go-jose": 0.03773584905660377,
+   "go/golang-jwt": 0.03773584905660377,
+   "go/jwx": 0.11320754716981132,
+   "go/kataras-jwt": 0.018867924528301886,
+   "java/java-jwt": 0.0,
+   "java/jjwt": 0.0,
+   "java/jose4j": 0.0,
+   "java/nimbus-jose-jwt": 0.0,
+   "node/cloudflare-worker-jwt": 0.0,
+   "node/fast-jwt": 0.0,
+   "node/jose": 0.0,
+   "node/jsonwebtoken": 0.0,
+   "node/jsrsasign": 0.03773584905660377,
+   "node/jwt-simple": 0.0,
+   "node/njwt": 0.0,
+   "node/node-jose": 0.03773584905660377,
+   "php/jwt-framework": 0.0,
+   "php/lcobucci-jwt": 0.0,
+   "php/php-jwt": 0.0,
+   "python/authlib": 0.0,
+   "python/cryptojwt": 0.018867924528301886,
+   "python/joserfc": 0.0,
+   "python/jwcrypto": 0.0,
+   "python/jwskate": 0.0,
+   "python/pyjwt": 0.0,
+   "python/python-jose": 0.0,
+   "ruby/json-jwt": 0.0,
+   "ruby/ruby-jwt": 0.0,
+   "rust/josekit": 0.1509433962264151,
+   "rust/jsonwebtoken": 0.018867924528301886,
+   "rust/jwt-simple": 0.03773584905660377
+  },
+  "excluded": {
+   "go/jwx": "keyload 11.3% > 5%",
+   "rust/josekit": "keyload 15.1% > 5%"
+  }
+ },
+ "sensitivity": {
+  "with_excluded": {
+   "n_impls": 34,
+   "B0": 0.7169811320754716,
+   "B1": 0.03773584905660377,
+   "B2": 0.2389937106918239,
+   "PROV": 0.4088050314465409,
+   "PROV_claim": 0.0
+  },
+  "without_reserves": {
+   "n_impls": 30,
+   "B0": 0.5660377358490566,
+   "B1": 0.03773584905660377,
+   "B2": 0.2389937106918239,
+   "PROV": 0.4025157232704403,
+   "PROV_claim": 0.0
+  }
+ }
+}

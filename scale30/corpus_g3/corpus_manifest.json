@@ -1,0 +1,63 @@
+{
+ "n_cases": 6000,
+ "seed": 20261001,
+ "self_check": "passed (all)",
+ "by_depth": {
+  "0": 1200,
+  "1": 1200,
+  "2": 1200,
+  "3": 1200,
+  "4": 1200
+ },
+ "by_alg": {
+  "ES256": 491,
+  "ES384": 448,
+  "ES512": 467,
+  "EdDSA": 479,
+  "HS256": 442,
+  "HS384": 442,
+  "HS512": 437,
+  "PS256": 488,
+  "PS384": 450,
+  "PS512": 467,
+  "RS256": 487,
+  "RS384": 447,
+  "RS512": 455
+ },
+ "by_tag": {
+  "aud": 2410,
+  "decimal_inexact": 1068,
+  "keyname": 1552,
+  "kid": 2313,
+  "limits": 303,
+  "must_reject": 233,
+  "non_ijson": 217,
+  "nonconf_aud": 43,
+  "nonconf_exp": 57,
+  "nonconf_iat": 55,
+  "nonconf_iss": 48,
+  "nonconf_jti": 40,
+  "nonconf_nbf": 51,
+  "nonconf_sub": 37,
+  "nonconformant": 331,
+  "nul": 337,
+  "num_respelled": 2227,
+  "numdate_frac": 2108,
+  "numedge": 1821,
+  "parse_ambiguous": 515,
+  "precision": 1046,
+  "solidus": 48,
+  "stredge": 1722,
+  "typ": 4123,
+  "uesc": 1195,
+  "unicode": 930,
+  "xhdr": 1928
+ },
+ "primary_stratum": 4790,
+ "sha256": {
+  "cases.json": "48e7207ccaac08c4773e4604d452c9ef66799421acf08a78ab15f8d7b74da3d2",
+  "truth.json": "a3034de013ffd5940b185cbb19ebbe3f7b17a01a36be30f45d72d143faba4a51",
+  "signed.json": "3afa1abdcb13e2d719942b544f04657315671db987e7d65c411c3c93f36c116d",
+  "issuer_keys.json": "502dc23c66e8b40d2bf5dfb13042cf23356be7508186befbad6c0083b6bd9966"
+ }
+}

@@ -1,0 +1,3 @@
+%{
+  "jose": {:hex, :jose, "1.11.12", "06e62b467b61d3726cbc19e9b5489f7549c37993de846dfb3ee8259f9ed208b3", [:mix, :rebar3], [], "hexpm", "31e92b653e9210b696765cdd885437457de1add2a9011d92f8cf63e4641bab7b"},
+}

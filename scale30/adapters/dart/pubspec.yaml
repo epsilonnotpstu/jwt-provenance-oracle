@@ -1,0 +1,8 @@
+name: scale30_dart_adapter
+description: scale30 Dart adapter (PREREG_newlangs).
+publish_to: none
+environment:
+  sdk: ^3.10.0
+dependencies:
+  dart_jsonwebtoken: ^3.4.1
+  jose: ^0.3.5+2

@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@tsndr/cloudflare-worker-jwt": "^3.2.3",
+    "fast-jwt": "^6.3.3",
+    "jose": "^6.2.12",
+    "jsonwebtoken": "^9.0.3",
+    "jsrsasign": "^11.1.5",
+    "jwt-simple": "^0.5.6",
+    "njwt": "^2.0.1",
+    "node-jose": "^2.2.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+ "n_impls": 32,
+ "n_honest": 159,
+ "n_forged": 2045,
+ "screen_candidates": 22,
+ "confirm_tokens": 20,
+ "slow_pairs": [],
+ "R1_honest_fp": [],
+ "R2_forged_flags": [],
+ "v1_honest_fp": 53,
+ "v1_forged_flags": 29,
+ "screen_by_impl": {
+  "dotnet/IdentityModel": 1,
+  "dotnet/jose-jwt": 1,
+  "java/java-jwt": 1,
+  "node/cloudflare-worker-jwt": 3,
+  "node/fast-jwt": 2,
+  "node/jose": 3,
+  "node/jsonwebtoken": 1,
+  "php/jwt-framework": 3,
+  "php/php-jwt": 1,
+  "python/pyjwt": 1,
+  "ruby/json-jwt": 3,
+  "ruby/ruby-jwt": 2
+ },
+ "R1_supported": true,
+ "R2_supported": true,
+ "R3": {
+  "baseline_ns": 6885,
+  "absent": {
+   "n": 5,
+   "slow": 0
+  },
+  "1e3": {
+   "n": 5,
+   "slow": 0
+  },
+  "1e4": {
+   "n": 5,
+   "slow": 5
+  },
+  "1e5": {
+   "n": 5,
+   "slow": 5
+  },
+  "1e6": {
+   "n": 5,
+   "slow": 5
+  }
+ },
+ "R3_supported": true
+}

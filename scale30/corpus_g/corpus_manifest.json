@@ -1,0 +1,12 @@
+{
+ "n_cases": 68,
+ "families": {
+  "S": 36,
+  "T": 32
+ },
+ "sha256": {
+  "cases.json": "b2a842f299a3f9da6bf9611fd40131d79af5730d86cc4028972a0416ceab816f",
+  "truth.json": "9c701c0ab9abea3850fc5b22f8d946930bd131cad587868768d3d83d071fd6e9",
+  "signed.json": "a14b6143cc27b20040f5998b91fc97800c1e1552037572d59d0076239f9c9bb1"
+ }
+}

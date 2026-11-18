@@ -1,0 +1,14 @@
+{
+    "name": "scale30/php-adapter",
+    "authors": [
+        {
+            "name": "afridi",
+            "email": "ug2102027@cse.pstu.ac.bd"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^7.2",
+        "lcobucci/jwt": "^5.6",
+        "web-token/jwt-library": "^4.2"
+    }
+}

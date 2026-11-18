@@ -1,0 +1,14 @@
+{
+ "n_cases": 2204,
+ "families": {
+  "V1": 105,
+  "V2": 30,
+  "V3": 24,
+  "F1": 45,
+  "F2": 2000
+ },
+ "sha256": {
+  "cases.json": "f3604758b3b90e537fcf575a8b7e797d4725abb69ccd66720179d567fb5507ea",
+  "truth.json": "038f15382ac2e864e4f4d736d4ea221a66c7e5461ceadf7aa1f3d720031c8775"
+ }
+}
